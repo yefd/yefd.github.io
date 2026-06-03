@@ -1,0 +1,54 @@
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+.page__footer {
+  @include clearfix;
+  color: var(--global-text-color-light);
+
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 2em;
+  width: 100%;
+  clear: both;
+  height: auto;
+
+  -webkit-animation: intro 0.3s both;
+          animation: intro 0.3s both;
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s;
+
+  footer {
+    @include clearfix;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding: 0.5em 1em 1em;
+    text-align: center;
+
+    @include breakpoint($x-large) {
+      max-width: $x-large;
+    }
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .fas,
+  .fab,
+  .far,
+  .fal {
+    color: var(--global-text-color-light);
+  }
+}
+
+.page__footer-template {
+  font-family: $global-font-family;
+  font-size: $type-size-7;
+}

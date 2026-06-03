@@ -1,0 +1,67 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{% assign publication_image = post.image | default: post.header.teaser | default: post.teaser %}
+{% assign year = post.date | default: "1900-01-01" | date: "%Y" %}
+
+<div class="publication__item">
+  <article class="publication-card{% unless publication_image %} publication-card--no-image{% endunless %}" itemscope itemtype="http://schema.org/ScholarlyArticle">
+    {% if publication_image %}
+      <div class="publication-card__media">
+        {% assign first_char = publication_image | slice: 0 %}
+        <img src=
+          {% if publication_image contains "://" %}
+            "{{ publication_image }}"
+          {% elsif first_char == "/" %}
+            "{{ publication_image | prepend: base_path }}"
+          {% else %}
+            "{{ publication_image | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="Representative figure for {{ title | strip_html }}"
+          onerror="this.parentElement.hidden = true; this.closest('.publication-card').classList.add('publication-card--no-image');">
+      </div>
+    {% endif %}
+
+    <div class="publication-card__body">
+      <h2 class="publication-card__title" itemprop="headline">{{ title }}</h2>
+
+      {% if post.authors %}
+        <p class="publication-card__authors" itemprop="author">
+          {{ post.authors | markdownify | remove: "<p>" | remove: "</p>" }}
+        </p>
+      {% endif %}
+
+      {% if post.venue %}
+        <p class="publication-card__venue"><em>{{ post.venue }}</em>{% if post.date %}, {{ year }}{% endif %}</p>
+      {% endif %}
+
+      {% if post.paperurl or post.codeurl or post.dataseturl %}
+        <div class="publication-card__links" aria-label="Publication links">
+          {% if post.paperurl %}
+            <a class="publication-card__link" href="{{ post.paperurl }}" aria-label="PDF for {{ title | strip_html }}">
+              <i class="fa fa-file-pdf" aria-hidden="true"></i>
+              <span>PDF</span>
+            </a>
+          {% endif %}
+          {% if post.codeurl %}
+            <a class="publication-card__link" href="{{ post.codeurl }}" aria-label="Code for {{ title | strip_html }}">
+              <i class="fa fa-code" aria-hidden="true"></i>
+              <span>Code</span>
+            </a>
+          {% endif %}
+          {% if post.dataseturl %}
+            <a class="publication-card__link" href="{{ post.dataseturl }}" aria-label="Dataset for {{ title | strip_html }}">
+              <i class="fa fa-database" aria-hidden="true"></i>
+              <span>Dataset</span>
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </article>
+</div>
