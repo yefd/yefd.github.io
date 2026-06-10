@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.xiaoji.icu/2022/04/03/English-Conversation/</loc>
+    <loc>https://yefd.github.io/legacy-chinese-blog/2022/04/03/English-Conversation/</loc>
     
     <lastmod>2022-04-03</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaoji.icu/2022/04/03/Probability-Theory/</loc>
+    <loc>https://yefd.github.io/legacy-chinese-blog/2022/04/03/Probability-Theory/</loc>
     
     <lastmod>2022-04-03</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaoji.icu/2022/04/03/Database-Principle/</loc>
+    <loc>https://yefd.github.io/legacy-chinese-blog/2022/04/03/Database-Principle/</loc>
     
     <lastmod>2022-04-03</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaoji.icu/2022/03/16/C-Plus-Plus/</loc>
+    <loc>https://yefd.github.io/legacy-chinese-blog/2022/03/16/C-Plus-Plus/</loc>
     
     <lastmod>2022-04-03</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaoji.icu/2022/03/16/Discrete-Mathematics/</loc>
+    <loc>https://yefd.github.io/legacy-chinese-blog/2022/03/16/Discrete-Mathematics/</loc>
     
     <lastmod>2022-03-16</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaoji.icu/2022/03/14/hello-world/</loc>
+    <loc>https://yefd.github.io/legacy-chinese-blog/2022/03/14/hello-world/</loc>
     
     <lastmod>2022-03-16</lastmod>
     
@@ -56,52 +56,7 @@
   </url>
   
   <url>
-    <loc>https://blog.xiaoji.icu/tags/index.html</loc>
-    
-    <lastmod>2022-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/repository/index.html</loc>
-    
-    <lastmod>2022-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/links/index.html</loc>
-    
-    <lastmod>2022-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/categories/index.html</loc>
-    
-    <lastmod>2022-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/about/index.html</loc>
-    
-    <lastmod>2022-03-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/404.html</loc>
+    <loc>https://yefd.github.io/legacy-chinese-blog/404.html</loc>
     
     <lastmod>2022-03-16</lastmod>
     
@@ -111,97 +66,10 @@
   
 
   <url>
-    <loc>https://blog.xiaoji.icu/</loc>
+    <loc>https://yefd.github.io/legacy-chinese-blog/</loc>
     <lastmod>2022-04-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-  </url>
-
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/tags/test/</loc>
-    <lastmod>2022-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/tags/first/</loc>
-    <lastmod>2022-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2022-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95/</loc>
-    <lastmod>2022-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/tags/C/</loc>
-    <lastmod>2022-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8E%9F%E7%90%86/</loc>
-    <lastmod>2022-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/</loc>
-    <lastmod>2022-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/tags/%E8%8B%B1%E8%AF%AD%E5%8F%A3%E8%AF%AD/</loc>
-    <lastmod>2022-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/categories/article/</loc>
-    <lastmod>2022-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2022-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%80%83%E7%A0%94/</loc>
-    <lastmod>2022-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.xiaoji.icu/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%80%83%E7%A0%94/%E5%A4%8D%E8%AF%95/</loc>
-    <lastmod>2022-04-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
   </url>
   
 </urlset>
