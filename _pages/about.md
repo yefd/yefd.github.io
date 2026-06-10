@@ -9,7 +9,7 @@ redirect_from:
 
 <section id="home" class="onepage-section" markdown="1">
 
-I am a Ph.D. student in Data Science and Analytics at HKUST-GZ, advised by Prof. [Lei Chen](https://cse.hkust.edu.hk/~leichen/) and Prof. [Yongqi Zhang](https://yzhangee.github.io/). Before joining HKUST(GZ), I received my M.S. and B.S. from SCNU, advised by Prof. [Shuangyin Li](http://www.shuangyinli.cn/).
+I am a Ph.D. student in Data Science and Analytics at HKUST(GZ), advised by Prof. [Lei Chen](https://cse.hkust.edu.hk/~leichen/) and Prof. [Yongqi Zhang](https://yzhangee.github.io/). Before joining HKUST(GZ), I received my M.S. and B.S. from SCNU, advised by Prof. [Shuangyin Li](http://www.shuangyinli.cn/).
 
 My research interests include information retrieval, RAG, and LLM.
 
