@@ -16,6 +16,7 @@ My research interests include information retrieval, RAG, and LLM.
 News
 ------
 
+* [2026/06] Joined OPPO as an intern in the Recommended Search Department.
 * [2026/05] BubbleRAG was accepted to Findings of ACL 2026.
 * [2025/09] Joined HKUST(GZ).
 * [2024/09] R$$^2$$AG was accepted to Findings of EMNLP 2024.
