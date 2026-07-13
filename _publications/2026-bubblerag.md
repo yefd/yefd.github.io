@@ -7,6 +7,7 @@ excerpt: "Introduces an interactive reading paradigm for RAG by externalizing mo
 date: 2026-07-02
 venue: "Findings of ACL"
 authors: "**Fuda Ye**, Jiachuan Wang, Yongqi Zhang, Lei Chen, and Shuangyin Li"
+paperurl: "https://doi.org/10.18653/v1/2026.findings-acl.2163"
 codeurl: "https://github.com/yefd/BubbleRAG"
 image: "publications/bubblerag.png"
 ---
