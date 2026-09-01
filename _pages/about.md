@@ -16,6 +16,8 @@ My research interests include information retrieval, RAG, and LLM.
 News
 ------
 
+* [2026/08] ConRAG was accepted to TKDD.
+* [2026/08] SnapBench was accepted to Findings of EMNLP 2026.
 * [2026/06] Joined OPPO as an intern in the Recommended Search Department.
 * [2026/05] BubbleRAG was accepted to Findings of ACL 2026.
 * [2025/09] Joined HKUST(GZ).
