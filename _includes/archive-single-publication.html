@@ -37,7 +37,7 @@
       {% endif %}
 
       {% if post.venue %}
-        <p class="publication-card__venue"><em>{{ post.venue }}</em>{% if post.date %}, {{ year }}{% endif %}</p>
+        <p class="publication-card__venue"><em>{{ post.venue }}</em>{% if post.publication_status %}, {{ post.publication_status }}{% elsif post.date %}, {{ year }}{% endif %}</p>
       {% endif %}
 
       {% if post.paperurl or post.codeurl or post.dataseturl %}

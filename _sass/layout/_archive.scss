@@ -233,7 +233,8 @@
   }
 
   .publication-card__media {
-    max-width: 260px;
+    aspect-ratio: 16 / 9;
+    max-width: none;
   }
 
   .publication-card__body {
